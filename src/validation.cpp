@@ -45,6 +45,7 @@
 #include <boost/filesystem/fstream.hpp>
 #include <boost/math/distributions/poisson.hpp>
 #include <boost/thread.hpp>
+#include <boost/bind.hpp>
 
 #if defined(NDEBUG)
 # error "Litecoin cannot be compiled without assertions."
